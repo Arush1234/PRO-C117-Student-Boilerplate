@@ -54,3 +54,5 @@ def predict(text):
                 predicted_emotion=key
         return predicted_emotion, predicted_emotion_img_url
 
+print(predict_review('Great phone do buy it. It is an awesome purchase with great battery life'))
+predict_review()
